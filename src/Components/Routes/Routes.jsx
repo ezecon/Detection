@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import DishDetector from "../DishDetectior";
+import RemoveBG from "../RemoveBG";
 
 
 const router = createBrowserRouter([
 {
         path:'/',
 
-        element:<DishDetector/>
+        element:<RemoveBG/>
     }
     
 ]);
