@@ -20,7 +20,7 @@ function RemoveBG() {
   const [templateSize, setTemplateSize] = useState({ width: 1, height: 1 });
 
   const templates = [
-    { name: "temple2", img: "4.png" },
+    { name: "temple1", img: "4.png" },
   ];
 
   // Load template size
@@ -179,7 +179,7 @@ function RemoveBG() {
             <img
               src={preview}
               alt="Preview"
-              className="mt-4 rounded-lg border border-cyan-400/50"
+              className="mt-4 w-1/2 rounded-lg border border-cyan-400/50"
             />
           )}
         </div>
