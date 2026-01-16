@@ -149,7 +149,7 @@ function RemoveBG() {
     <div className="min-h-screen bg-[#090919] text-cyan-400 p-8 font-mono relative overflow-hidden">
       <main className="relative z-10 max-w-4xl mx-auto flex flex-col items-center gap-8">
         <h1 className="text-4xl md:text-7xl font-bold tracking-tighter">
-          Temple Photo Editor
+          তৈরী করুন আপনার ছবি
         </h1>
 
         {/* Upload Section */}
