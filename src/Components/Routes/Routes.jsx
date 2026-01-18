@@ -7,7 +7,7 @@ const router = createBrowserRouter([
         path:'/',
 
         element:<RemoveBG/>
-    }
+    },
     
 ]);
 
