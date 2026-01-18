@@ -110,7 +110,7 @@ export default function RemoveBG() {
       onPointerMove={handlePointerMove}
       onPointerUp={() => setDragTarget(null)}
     >
-      <h1 className="text-4xl md:text-7xl font-bold tracking-tighter">
+      <h1 className="text-center text-4xl md:text-7xl font-bold tracking-tighter">
         তৈরী করুন আপনার ছবি
       </h1>
 
@@ -133,7 +133,9 @@ export default function RemoveBG() {
 
         
       </div>
-
+      {image && <div className="w-72 p-4 space-y-3">
+        <button onClick={downloadImage} className="w-full bg-cyan-400/50 text-white hover:bg-cyan-400 p-3 rounded">Download</button>
+      </div>}
       {image && (
         <div className="flex flex-col justify-center items-center">
           <div ref={containerRef} className="relative">
@@ -166,9 +168,6 @@ export default function RemoveBG() {
         ))}
       </div>
 
-      <div className="w-72 p-4 space-y-3">
-        <button onClick={downloadImage} className="w-full bg-cyan-400/50 text-white hover:bg-cyan-400 p-3 rounded">Download</button>
-      </div>
     </div>
   );
 }
